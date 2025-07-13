@@ -1,0 +1,12 @@
+{
+	"id": "moth",
+	"name": "moth",
+	"author": ["Smol lusty joker"],
+	"description": "I trapped you into a playing card :P.",
+	"prefix": "moth",
+	"badge_colour": "FFF000",,
+	"dependencies": [
+	],
+	"main_file": "moth.lua",
+	"version": "1.0"
+}
