@@ -3,7 +3,7 @@
 --- MOD_ID: Lusty
 --- PREFIX: lust
 --- MOD_AUTHOR: [Smol Lusty joker]
---- MOD_DESCRIPTION: Adds silly little lusty joker doodles to your heards
+--- MOD_DESCRIPTION: Adds silly little lusty joker doodles to your hearts
 --- LOADER_VERSION_GEQ: 1.1.2
 --- VERSION: 1.1.2
 --- BADGE_COLOR: FF6368
