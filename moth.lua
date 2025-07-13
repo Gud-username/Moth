@@ -13,7 +13,7 @@ local atlas_path = 'moth_lc.png' -- Filename for the image in the asset folder
 local atlas_path_hc = 'moth_hc.png' -- Filename for the high-contrast version of the texture, if existing
 
 local suits = {"diamonds"} -- Which suits to replace
-local ranks = {"Jack", "Queen", "King", "Ace",} -- Which ranks to replace
+local ranks = {"Ace"} -- Which ranks to replace
 
 local description = "Moth" -- English-language description, also used as default
 
