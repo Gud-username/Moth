@@ -4,11 +4,10 @@
 --- PREFIX: moth
 --- MOD_AUTHOR: [Smol Lusty joker]
 --- MOD_DESCRIPTION: HI MOTH!
---- LOADER_VERSION_GEQ: 1
---- VERSION: 1
+--- LOADER_VERSION_GEQ: 1.0
+--- VERSION: 1.0
 
 local atlas_key = 'moth_atlas' -- Format: PREFIX_KEY
--- See end of file for notes
 local atlas_path = 'moth_lc.png' -- Filename for the image in the asset folder
 local atlas_path_hc = 'moth_hc.png' -- Filename for the high-contrast version of the texture, if existing
 
