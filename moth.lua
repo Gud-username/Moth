@@ -1,22 +1,21 @@
 --- STEAMODDED HEADER
---- MOD_NAME: Lusty Cards
---- MOD_ID: Lusty
---- PREFIX: lust
+--- MOD_NAME: Moth
+--- MOD_ID: moth
+--- PREFIX: moth
 --- MOD_AUTHOR: [Smol Lusty joker]
---- MOD_DESCRIPTION: Adds silly little lusty joker doodles to your hearts
---- LOADER_VERSION_GEQ: 1.1.2
---- VERSION: 1.1.2
---- BADGE_COLOR: FF6368
+--- MOD_DESCRIPTION: HI MOTH!
+--- LOADER_VERSION_GEQ: 1
+--- VERSION: 1
 
 local atlas_key = 'lust_atlas' -- Format: PREFIX_KEY
 -- See end of file for notes
 local atlas_path = 'lusty_lc.png' -- Filename for the image in the asset folder
 local atlas_path_hc = 'lusty_hc.png' -- Filename for the high-contrast version of the texture, if existing
 
-local suits = {'hearts', 'clubs', 'diamonds', 'spades'} -- Which suits to replace
-local ranks = {'Jack', 'Queen', "King", "Ace", "10", "9", "8", "7", "6", "5", "4", "3", "2"} -- Which ranks to replace
+local suits = {"diamonds"} -- Which suits to replace
+local ranks = {"Jack", "Queen", "King", "Ace",} -- Which ranks to replace
 
-local description = 'Smol lusty joker' -- English-language description, also used as default
+local description = "Moth" -- English-language description, also used as default
 
 -----------------------------------------------------------
 -- You should only need to change things above this line --
@@ -45,7 +44,7 @@ for _, suit in ipairs(suits) do
         key = suit.."_skin",
         suit = suit:gsub("^%l", string.upper),
         ranks = ranks,
-		display_ranks = {"Ace", "King", "Queen", "Jack"},
+		display_ranks = {"Ace"},
         lc_atlas = atlas_key..'_lc',
         hc_atlas = (atlas_path_hc and atlas_key..'_hc') or atlas_key..'_lc',
         loc_txt = {
