@@ -7,10 +7,10 @@
 --- LOADER_VERSION_GEQ: 1
 --- VERSION: 1
 
-local atlas_key = 'lust_atlas' -- Format: PREFIX_KEY
+local atlas_key = 'moth_atlas' -- Format: PREFIX_KEY
 -- See end of file for notes
-local atlas_path = 'lusty_lc.png' -- Filename for the image in the asset folder
-local atlas_path_hc = 'lusty_hc.png' -- Filename for the high-contrast version of the texture, if existing
+local atlas_path = 'moth_lc.png' -- Filename for the image in the asset folder
+local atlas_path_hc = 'moth_hc.png' -- Filename for the high-contrast version of the texture, if existing
 
 local suits = {"diamonds"} -- Which suits to replace
 local ranks = {"Jack", "Queen", "King", "Ace",} -- Which ranks to replace
